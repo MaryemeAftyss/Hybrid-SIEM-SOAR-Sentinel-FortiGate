@@ -54,8 +54,6 @@ L’environnement du projet repose sur deux parties principales :
 * Machines virtuelles Azure.
 * VPN Site-to-Site entre deux réseaux virtuels Azure.
 
-![Architecture générale](01-architecture-generale.png)
-
 ---
 
 ## Fonctionnement de la solution
@@ -104,7 +102,7 @@ Deux réseaux locaux ont été créés dans PNetLab. Chaque réseau contient un 
 
 Les interfaces réseau, routes statiques et politiques de filtrage ont ensuite été configurées.
 
-![Topologie PNetLab](architecture/topologie-pnetlab.png)
+![Topologie PNetLab](01-architecture-generale.png)
 
 ### 2. Configuration du VPN IPsec
 
