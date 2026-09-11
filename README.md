@@ -321,5 +321,3 @@ Aucune information confidentielle ni donnée appartenant à l’organisme d’ac
 
 **Maryeme Aftyss**
 Ingénieure d’État en cybersécurité
-Spécialisation : SOC, SIEM, SOAR, réseaux et sécurité opérationnelle
-
