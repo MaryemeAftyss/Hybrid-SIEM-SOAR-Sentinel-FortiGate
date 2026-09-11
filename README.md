@@ -54,7 +54,7 @@ L’environnement du projet repose sur deux parties principales :
 * Machines virtuelles Azure.
 * VPN Site-to-Site entre deux réseaux virtuels Azure.
 
-![Architecture générale](architecture/architecture-generale.png)
+![Architecture générale](01-architecture-generale.png)
 
 ---
 
