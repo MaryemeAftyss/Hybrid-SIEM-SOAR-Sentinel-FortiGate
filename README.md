@@ -115,7 +115,7 @@ Les tests de connectivité ont permis de vérifier :
 * le routage du trafic ;
 * l’application des politiques de sécurité.
 
-![VPN IPsec](screenshots/fortigate/vpn-ipsec.png)
+![VPN IPsec](02-vpn-ipsec-fortigate.png)
 
 ### 3. Mise en place du serveur Syslog
 
@@ -129,7 +129,7 @@ Les configurations réalisées comprennent :
 * la séparation des journaux selon leur source ;
 * la vérification de la réception des événements.
 
-![Réception des logs](screenshots/syslog/reception-logs.png)
+![Réception des logs](03-reception-logs-syslog.png)
 
 ### 4. Intégration avec Microsoft Sentinel
 
@@ -142,7 +142,7 @@ Le serveur Syslog a ensuite été connecté à Azure à l’aide des composants 
 * Data Collection Rule ;
 * connecteur Syslog de Microsoft Sentinel.
 
-![Microsoft Sentinel](screenshots/sentinel/dashboard.png)
+![Microsoft Sentinel](04-logs-syslog-sentinel.png)
 
 ### 5. Développement des règles de détection
 
@@ -168,6 +168,8 @@ Syslog
 
 Les requêtes présentées dans ce dépôt utilisent uniquement des données anonymisées.
 
+![Microsoft Sentinel](05-regle-analytique-sentinel.png)
+
 ### 6. Gestion des incidents
 
 Les événements correspondant aux conditions des règles analytiques génèrent des alertes et des incidents dans Microsoft Sentinel.
@@ -181,7 +183,11 @@ L’analyse d’un incident comprend :
 * la consultation de la chronologie ;
 * l’application des actions de réponse.
 
-![Incident Sentinel](screenshots/incidents/incident-sentinel.png)
+![Incident Sentinel](06-incident-ssh-brute-force.png)
+
+![Incident Sentinel](10-incident-rdp-brute-force.png)
+
+![Incident Sentinel](11-incident-windows-log-cleared.png)
 
 ### 7. Automatisation de la réponse
 
@@ -195,7 +201,7 @@ Les automatisations réalisées ou étudiées comprennent :
 * la mise à jour de l’incident ;
 * le déclenchement d’une action après validation.
 
-![Playbook Logic Apps](screenshots/playbooks/logic-apps.png)
+![Playbook Logic Apps](07-playbook-logic-apps.png)
 
 ### 8. Création des tableaux de bord
 
@@ -208,7 +214,11 @@ Des workbooks Microsoft Sentinel ont été utilisés pour présenter les informa
 * sources principales des événements ;
 * état général de la supervision.
 
-![Workbook Sentinel](screenshots/workbooks/workbook-sentinel.png)
+![Workbook Sentinel](08-workbook-sentinel.png)
+
+![Workbook Sentinel](12-workbook-log-cleared.png)
+
+![Workbook Sentinel](13-workbook-failed-logins.png)
 
 ---
 
